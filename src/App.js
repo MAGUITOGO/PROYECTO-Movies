@@ -10,7 +10,7 @@ function App() {
 
   const [paginaActual,setPaginaActual] = useState(1);
   let peliculas = PeliculasJson;
-
+  Var AAA = "";
   return(
     <PageWraper>
         {peliculas.map(pelicula => 
